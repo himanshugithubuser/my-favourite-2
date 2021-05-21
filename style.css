@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background: linear-gradient(azure 0%, navy 100%)
+    }
+h1 {
+    font-variant: small-caps;
+    font-size: 30px;
+}
+hr {
+    background-color: black;
+    height: 3px
+}
+img {
+    width: 150px;
+    height: 200px;
+    border-radius: 200px
+}
+#welcome {
+    padding: 70px;
+    text-align: center;
+}
+.menu {
+    top: 10px;
+    right: 30px;
+    float: right;
+    color: black;
+    z-index: 10;
+    position: absolute;
+    cursor: pointer;
+    list-style: none;
+}
+.link {
+    color: navy;
+    display: inline;
+    padding: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.link:hover {
+    color: cadetblue;
+} 
+.line {
+    width: 100px;
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
+}
+#about {
+    padding: 20px;
+    font-size: 35px;
+    background-color: blue;
+}
